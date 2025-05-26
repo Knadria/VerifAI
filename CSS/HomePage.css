@@ -7,51 +7,6 @@ body{
     background-size: cover;
 }
 
-
-
-nav{
-    display: flex;
-    width: auto;
-}
-
-.logo{
-    display: flex;
-    margin: 80px 200px 0px 90px;
-   
-}
-
-.logo p{
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 48px;
-    justify-content: space-between;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.logo img{
-    height: 80px;
-    width: 80px;
-}
-
-.header{
-    margin: 100px 50px 0 auto;
-    justify-content: space-between;
-}
-.header a{
-    text-decoration: none;
-    font-size: 24px;
-    color: black;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100px;
-    font-style: normal;
-}
-
 .Main-content{
  
     justify-content: center;
@@ -62,22 +17,18 @@ nav{
 .main-header{
     margin: 10px 200px 10px 200px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
 }
 
 .main-header h1{
     font-size: 64px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100px;
-    font-style: normal;
 }
 
 .main-header p{
     font-size: 24px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100px;
-    font-style: normal;
 }
 
 .main-header button{
@@ -91,11 +42,7 @@ nav{
 
 .main-header a{
     text-decoration: none;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100px;
-    font-style: normal;
+    color: white; 
 }
 
 .main-image{
