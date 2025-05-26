@@ -1,0 +1,121 @@
+body{
+    background-image: url("../Assets/wmremove-transformed\ 1.png");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    display: flex;
+    width: auto;
+}
+
+.logo{
+    display: flex;
+    margin: 80px 200px 0px 90px;
+   
+}
+
+.logo p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 48px;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+
+.header{
+    margin: 100px 50px 0 auto;
+    justify-content: space-between;
+}
+.header a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.Main-content{
+ 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-header{
+    margin: 10px 200px 10px 200px;
+    text-align: center;
+}
+
+.main-header h1{
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.main-header p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.main-header button{
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(81, 156, 255, 1);
+    width: 231px;
+    height: 75px;
+    font-size: 24px;
+}
+
+.main-header a{
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.main-image{
+    display: flex;
+    text-align: center;
+    margin: 100px 100px 10px 100px;
+}
+.images-content{
+    margin-left:  100px;
+    margin-right: 100px;
+}
+.images-content p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.images-content img{
+    margin-bottom: 20px;
+    width: 125px;
+    height: 125px;
+}
