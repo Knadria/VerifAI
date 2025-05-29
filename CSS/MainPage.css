@@ -62,3 +62,7 @@ body{
 .buttons p{
     font-size: 24px;
 }
+
+.not{
+    height: 100px;
+}
