@@ -5,46 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/LoginPage.css">
+    <link rel="stylesheet" href="../CSS/HomePage.css">
     <link rel="stylesheet" href="../CSS/NavBar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-   <nav>
+      <nav>
         <div class="logo">
             <img src="../Assets/6843063_accuracy_archery_arrow_business_goal_icon 1.png" alt="verifai-logo">
             <p>VerifAI</p>
         </div>
         <div class="header">
             <a href="../HTML/HomePage.html">About</a>
-            <a href="">Contact</a>
+            <a href="../HTML/ContactPage.html">Contact</a>
             <a href="../HTML/RegisterPage.html">Register</a>
             <a href="../HTML/LoginPage.html">Login</a>
         </div>
     </nav>
-
-    <div class="main-content">
-        <div class="main-header">
-            <div class="title">
-                <img src="../Assets/6843063_accuracy_archery_arrow_business_goal_icon 1.png" alt="logo">
-                <h1>VerifAI</h1>
+    <div class ="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx  bx-user-square'  ></i> 
             </div>
-            <h2>Sign in to your VerifAI account!</h2>
-            <button><img src="../Assets/1298745_google_brand_branding_logo_network_icon 1.png" alt="google"> <p>Sign in With Google</p></button>
-            <h3>You can also log in using your registered email and password.</h3>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx  bx-lock'  ></i> 
+            </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox"> Remember Password</label>
+            <a href="#">Forgot Password</a>
         </div>
-        <div class="forms">
-            <form action="">
-                <input type="email" name="user-email" placeholder="Email Address" class="input"> <br>
-                <input type="text" name="user-pass" placeholder="Password" class="input"> <br>
-                <input type="submit" value="Login" class="login">
-            </form>
+        
+        <button type="submit" class="btn">Login</button>
+
+        <div class="register-link">
+            <p>Don't have an account?
+                <a href="#">Register</a>
+            </p>
         </div>
-        <div class="pass">
-            <p>Forgot your password?</p>
-            <a href="../HTML/RegisterPage.html">Dont have an account? Sign Up!</a>
-        </div>
-    </div>
+      </form> 
+      </div>
 </body>
 </html>
