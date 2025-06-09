@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../CSS/MainPage.css">
+<link rel="stylesheet" href="../CSS/NavBar.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Detector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <script src="../JS/MainPage.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@300;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="../Assets/6843063_accuracy_archery_arrow_business_goal_icon 1.png" alt="verifai-logo" />
+      <p>VerifAI</p>
+    </div>
+    <div class="header">
+      <a href="../HTML/HomePage.html">About</a>
+      <a href="../HTML/ContactPage.html">Contact</a>
+      <a href="../HTML/RegisterPage.html">Register</a>
+      <a href="../HTML/LoginPage.html">Login</a>
+    </div>
+  </nav>
+
+  <div class="Main-content">
+    <div class="main-header">
+      <h1>AI Detector</h1>
+      <p>
+        Ensure responsible AI use with our AI Checker—designed to detect AI-generated text.
+        Get a clear score indicating how much of your content may have been written by AI,
+        so you can submit your work confidently.
+      </p>
+    </div>
+
+    <div class="Box">
+      <textarea id="AI-Checker" placeholder="Paste your text here..." aria-label="Text input for AI detection"></textarea>
+
+      <div class="buttons">
+        <button class="detect" onclick="detectText()">Detect Text</button>
+        <label for="fileUpload" class="upload">
+          <img src="../Assets/2931143_export_share_upload_up_icon 1.png" alt="Upload icon" />
+          <input type="file" id="fileUpload" style="display: none;" />
+        </label>
+      </div>
+    </div>
+
+    <!-- Detection Results -->
+    <div id="resultContainer" class="result-container">
+      <h2>Your Text is Most Likely AI/GPT generated</h2>
+      <div class="gauge-container">
+        <div class="gauge">
+          <span id="scorePercent">0%</span>
+          <div class="label">AI GPT*</div>
+        </div>
+      </div>
+      <p class="char-count" id="charCount">1 Characters<br>0 Words</p>
+    </div>
+  </div>
+</body>
+</html>
